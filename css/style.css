@@ -20,18 +20,23 @@ body{
 h1{
 	color: white;
 	font-family: 'Tillana', cursive;
-	margin-left: 10px;
-	font-size: 60px;
-	text-align: center;
+	
+	font-size: 30px;
+	text-align: right;
+	background-image: url(../img/logo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%, 100%;
 }
 
 h2{
-	color: white;
-	font-family: 'Asul', sans-serif;
-	margin-left: 10px;
-	font-size: 20px;
-	text-align: left;
+	color: 0B396E;
+	font-family: 'Tillana', cursive, bold;
+	
+	font-size: 35px;
+	text-align: right;
 }
+
+
 
 header{
 
@@ -41,10 +46,11 @@ header{
 }
 
 nav{
-
+	color: 0B396E;
 	width: 1000px;
 	height: 50px;
-	background: red; 
+	background: rgba(255, 255, 255, 0); 
+	background-position: center;
 	border-radius: 10px;
 }
 
@@ -54,13 +60,15 @@ ul{
 }
 
 li{
+	color: black;
+	font-family: 'Asul';
 	float: left;
-	list-style-type: 0;
+	list-style-type: none;
 	padding: 10px;
-	background: black;
+	background: 0b396e;
 	margin: 3px;
 	border-radius: 10px;
-	box-shadow: 0 0 10px white inset;
+	box-shadow: 0 0 10px black inset;
 }
 
 
@@ -68,7 +76,7 @@ li{
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
 
-.menu:link{color: white; text-decoration: none;}
-.menu:visited{color: white; text-decoration: none;}
-.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
-.menu:active{color: white; text-decoration: none;}
+.menu:link{color: 0B396E; text-decoration: none;}
+.menu:visited{color: 0B396E; text-decoration: none;}
+.menu:hover{color: 0B396E; text-decoration: none; text-shadow: 0 0 13px 0B396E;}
+.menu:active{color: 0B396E; text-decoration: none;}
